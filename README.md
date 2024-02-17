@@ -10,5 +10,5 @@ https://www.youtube.com/watch?v=Xv7nNA-DtRE&list=PLnV7i1DUV_zMKEBTQ-wwlbyop8yVAh
 
 - na raiz do projeto execute o comando
   `tsc --watch`
-- abra outro terminal na pasta do arquivo que deseja execute o comando
+- abra outro terminal na pasta do arquivo que deseja e execute o comando
   `node <nome do arquivo>.js`
