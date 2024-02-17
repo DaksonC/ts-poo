@@ -9,15 +9,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Classe que representa um carro
  *
  * Atributos
- * - @param modelo: string - representa o modelo do carro
- * - @param ano: number - representa o ano do carro
- * - @param cor: string - representa a cor do carro
- * - @param velocidade: number - representa a velocidade do carro
+ * - modelo: string - representa o modelo do carro
+ * - ano: number - representa o ano do carro
+ * - cor: string - representa a cor do carro
+ * - velocidade: number - representa a velocidade do carro
  *
  * Métodos
- * + @param acelerar(): void - aumenta a velocidade do carro em 10
- * + @param parar(): void - para o carro
- * + @param velocidadeAtual(): number - retorna a velocidade atual do carro
+ * + acelerar(): void - aumenta a velocidade do carro em 10
+ * + parar(): void - para o carro
+ * + velocidadeAtual(): number - retorna a velocidade atual do carro
  *
  * Restrições
  * - modelo, ano e cor não podem ser vazios

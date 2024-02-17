@@ -2,6 +2,12 @@
 // Objetivo: entender o que são classes e objetos em TypeScript
 // A classe é um modelo para criar objetos e define propriedades e métodos que os objetos terão e o objeto é uma instância da classe.
 Object.defineProperty(exports, "__esModule", { value: true });
+// Criando a documentação da classe
+/**
+ * Classe Pessoa
+ * @param nome - nome da pessoa
+ * @param idade - idade da pessoa
+ */
 class Pessoa {
 }
 // Instanciando a classe
@@ -14,6 +20,12 @@ console.log('******* Classe Pessoa sem construtor *******');
 console.log('Nome:', pessoa.nome); // Lucas
 console.log('Idade: ', pessoa.idade); // 22
 // **************Diferença da classe usando construtor*******************
+//Criando a documentação da classe
+/**
+ * Classe Pessoa1
+ * @param nome - nome da pessoa
+ * @param idade - idade da pessoa
+ */
 class Pessoa1 {
     constructor(nome, idade) {
         this.nome = nome;
